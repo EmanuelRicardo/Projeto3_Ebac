@@ -1,8 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: orange;
+.navbar {
+    background-color: #e15f41;
 }
+
+.navbar .navbar-brand {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    color: white;
+    padding: 20px;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: end;
+}
+
+.navbar nav .nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.navbar nav .nav-link.active {
+    color: #e15f41;
+    background-color: white;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .navbar .container {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navbar .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar .container nav .nav-pills {
+        display: block;
+    }
+}
+
