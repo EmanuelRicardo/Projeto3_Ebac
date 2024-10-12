@@ -35,18 +35,35 @@
 
 @media screen and (max-width: 1200px) {
     .navbar .container {
+        display: flex;
+    }
+
+    .navbar .container button {
+        background-color: white;
+    }
+
+    .navbar .container nav .nav-pills {
         display: block;
+        margin: auto;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 700px) {
     .navbar .container {
         display: flex;
-        justify-content: center;
+    }
+
+    .navbar .container button {
+        background-color: white;
     }
 
     .navbar .container nav .nav-pills {
         display: block;
+        margin: auto;
+        width: 100%;
     }
+
+    
 }
 
