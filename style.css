@@ -72,6 +72,22 @@
     padding-bottom: 35px;
 }
 
+#cardapio #tab_cardapio {
+    display: flex;
+}
+
+#cardapio #tab_cardapio .nav {
+    display: block;
+}
+
+#cardapio #tab_cardapio .nav .nav-link {
+    font-size: 13px;
+}
+
+#cardapio #tab_cardapio .tab-content {
+    padding-left: 20px;
+}
+
 
 
 
