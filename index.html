@@ -37,7 +37,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">
+                        <a href="#formulario" class="nav-link">
                             <i class="bi bi-chat-left-text"></i>
                             Fale Conosco
                         </a>
@@ -290,21 +290,56 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="formulario">
+        <h2 class="section_title">Entre em <span>Contato</span></h2>
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-5">
                     <form action="">
-                        <label for="name">Seu nome</label>
-                        <input type="text">
-                        <label for="e-mail">Seu e-mail</label>
-                        <input type="text">
-                        <label for="">Seu telefone (opcional)</label>
-                        <input type="text">
+                        <label for="name" class="form-label">Seu nome</label>
+                        <input type="text" class="form-control">
+                        <label for="e-mail" class="form-label">Seu e-mail</label>
+                        <input type="text" class="form-control">
+                        <label for="telefone" class="form-label">Seu telefone (opcional)</label>
+                        <input type="tel" class="form-control">
+                        <label for="">Sua Mensagem: </label>
+                        <textarea class="form-control"></textarea>
+                        <div class="form-check form-switch">
+                            <label for="Aceito_termos">Li e concordo com os termos de serviço</label>
+                            <input type="checkbox" class="form-check-input" id="aceito_termos">
+                        </div>
+                        <button>Enviar</button>
                     </form>
                 </div>
                 <div class="col-6">
-                    h1 Contato
+                    <div class="redes_sociais">
+                        <h3 class="section_title text_colored">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes Sociais
+                        </h3>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="bi bi-whatsapp"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="endereco">
+                        <h3 class="section_title text_colored">
+                            <i class="bi bi-send-fill"></i>
+                            Endereço
+                        </h3>
+                        <address>
+                            Rua Html CSS, nº 12, Bairro Bootstrap - Salvador - BA
+                        </address>
+                    </div>
                 </div>
             </div>
         </div>

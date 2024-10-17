@@ -92,6 +92,48 @@
     color: white;
 }
 
+#formulario h2 {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#formulario .container {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#formulario button {
+    background-color: #e15f41;
+    color: white;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 6px 30px;
+    border-radius: 20px;
+}
+
+#formulario .form-check-input:checked {
+    background-color: #e15f41;
+}
+
+#formulario form label {
+    color: #e15f41;
+    font-weight: bold;
+}
+
+#formulario form textarea {
+    resize: none;
+}
+
+.redes_sociais nav ul li {
+    display: inline;
+    padding-right: 5px;
+}
+
+.redes_sociais nav ul li a {
+    color: #e15f41;
+}
+
 
 
 
